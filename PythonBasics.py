@@ -32,3 +32,11 @@ firstName = 'shubham'
 lastName =  'ojha'
 full_name = firstName + ' ' + lastName 
 print(full_name)
+#string concatenations
+print("hello " + "shubham ") #but we can only type the stings for concatenations i.e, this is wrong print("hello " + "14 ")
+
+#Type casting
+''' we can convert the integer type data to the string type by just doing the following operations'''
+print(type(str(1408))) #-------> it is converted to string form
+#now converting it to the integer form
+print(type(int(str(1408)))) #-----> this will be in  the integer form as the string form is converted to the integer form
