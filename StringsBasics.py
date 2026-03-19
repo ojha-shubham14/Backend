@@ -11,3 +11,10 @@ print("He called me 'yesterday'")
 #or the second way 
 print('He called me "yesterday" ')
 print('what did mam teach yesterday in "ADA" ') 
+
+#formatted strings
+
+name = "Shubham Ojha"
+age = 21
+print(f"Hello my name is {name} and i am {age} years young") #by placing f before the qoutes this tells the compiler that string formatting will be used here
+print("Hello my name is {name} and i am {age} years young").format #this also works good like this but i need to cross check it as the .format is not right
