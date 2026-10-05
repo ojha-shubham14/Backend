@@ -32,3 +32,27 @@ matrix = [
 ]
 
 print(matrix[0][2],"i.e, --> 2nd index of the first list") #--> that means matrix k andar ka 0th list k andar 2nd index , which is 3 so 3 will be printed
+
+
+#list methods
+
+basket = [1,2,3,6,9]
+print(len(basket),"--> we can use in built functions as well")
+print("\nList Methods")
+#adding values
+basket.append(18) #--> adds 18 to the last of the list
+print(basket,"\nadded 18 in the end of the list")
+basket.insert(3,"hello world") #--> adds to a specefic position i.e, insert(index,value)
+print(basket,"\nadded hello world at 3rd index")
+basket.extend([1000,"shubham ojha"]) #--> helps to add a list to the existing list
+print(basket,"\nafter adding the elements using external list additon")
+
+#removing values
+basket.pop() #--> removes the last element from the list and this is not implace
+print(basket,"\nremoved last element")
+basket.pop(3) #removes the specefic index from the list
+print(basket,"\nremoved 3rd element")
+basket.remove(1000) #--> removes the specefic value from the list
+print(basket, "\nremoved 1000 from the list")
+basket.clear() #--> clears the entire list , i.e, no elements in the list 
+print(basket,"\ncleared the list")
