@@ -23,4 +23,12 @@ print(new_shopping_cart,"-->This the new shopping cart")
 
 
 
-#
+#matrix --> nested list (used in ML and Image processing for computers to understand)
+
+matrix = [
+    [1,2,3],
+    [0,1,0],
+    [1,0,1]
+]
+
+print(matrix[0][2],"i.e, --> 2nd index of the first list") #--> that means matrix k andar ka 0th list k andar 2nd index , which is 3 so 3 will be printed
