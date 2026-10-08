@@ -56,3 +56,8 @@ basket.remove(1000) #--> removes the specefic value from the list
 print(basket, "\nremoved 1000 from the list")
 basket.clear() #--> clears the entire list , i.e, no elements in the list 
 print(basket,"\ncleared the list")
+
+a,b,c, *remainingelements ,d = [1,2,3,4,5,6]
+print(a)
+print(remainingelements)
+print(d)
